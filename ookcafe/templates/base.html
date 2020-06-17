@@ -48,8 +48,8 @@
 
   {# Choosing a specific link icon #}
 
-  {%- if temp.startswith('github.com') %}{% set class = 'iconfont' %}{% set text="&#xe709;" %}
-  {% elif temp.startswith('zhihu.com') %}{% set class = 'iconfont' %}{% set text="&#xe85a;" %}
+  {%- if temp.startswith('github.com') %}{% set class = 'iconfont' %}{% set text="&#xe85a;" %}
+  {% elif temp.startswith('zhihu.com') %}{% set class = 'iconfont' %}{% set text="&#xe709;" %}
   {% elif temp.startswith('#mail') %}{% set class = 'iconfont' %}{% set text="&#xe667;" %}
   {% endif -%}
   <i class="fa {{ class }} fa-lg">{{ text }}</i>
