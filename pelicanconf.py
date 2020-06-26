@@ -37,7 +37,7 @@ PATH = 'content'
 # 主题
 THEME = 'theme/ookcafe'
 DEFAULT_DATE_FORMAT = "%Y-%m-%d"
-USER_LOGO_URL = "/theme/imgs/avator.jpeg"
+USER_LOGO_URL = "/theme/imgs/avatar.png"
 
 # output path
 OUTPUT_PATH = "xxx"
