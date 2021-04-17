@@ -19,7 +19,8 @@ pip install "pelican[markdown]"
 pelican-quickstart  #需要回答些问题
 mkdir theme
 ```
-将ookcafe-blog-theme里的ookcafe文件夹拷贝到projectname/theme里
+将ookcafe-blog-theme里的ookcafe文件夹拷贝到projectname/theme
+
 将ookcafe-blog-theme里的pelicanconf_sample.py文件重命名为pelicanconf.py,并替换projectname里的pelicanconf.py文件
 
 自己补全pelicanconf.py文件, 可先修改其中“XXX”部分
