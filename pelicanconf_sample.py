@@ -3,10 +3,10 @@
 import locale
 
 # 基本信息
-AUTHOR = 'xxx'
-SITENAME = 'xxx'
-SITEURL = ''
-MYEMAIL = 'xxx@gmail.com'
+AUTHOR = 'XXX'
+SITENAME = 'XXX'
+SITEURL = ''  # 无需填写
+MYEMAIL = 'XXX'
 
 # 基本配置
 TIMEZONE = 'Asia/Shanghai'
@@ -22,26 +22,23 @@ LINKS = (
 
 # 社交链接
 SOCIAL = (
-    ('github', 'xxx'),
+    ('github', 'XXX'),
     ('email', '#mail'),
-    ('zhihu', 'xxx'),
+    ('zhihu', 'XXX'),
 )
 
-DEFAULT_PAGINATION = False
+DEFAULT_PAGINATION = 8
 
-# Uncomment following line if you want document-relative URLs when developing
-# RELATIVE_URLS = True
-
-# 博客文章路径
+# 文章所在路径
 PATH = 'content'
+
 # 主题
 THEME = 'theme/ookcafe'
 DEFAULT_DATE_FORMAT = "%Y-%m-%d"
-USER_LOGO_URL = "/theme/imgs/avatar.png"
+USER_LOGO_URL = "https://avatars.githubusercontent.com/u/38523576?v=4"
 
-# output path
-OUTPUT_PATH = "xxx"
-
+# 生成的静态文件路径
+OUTPUT_PATH = "output"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
